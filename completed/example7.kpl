@@ -1,0 +1,8 @@
+Program Example2; (* Factorial *)
+Var x : Integer;
+    a : Integer;
+Begin
+    x:= -5;
+    a:= if x >=0 RETURN 1 ELSE RETURN -3;
+    CALL WRITEi(a);
+End. (* Factorial *)
